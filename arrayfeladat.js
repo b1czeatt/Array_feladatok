@@ -2,7 +2,7 @@
 function getOtosLotteryNumbers() {
     const numbers = new Set();
     while (numbers.size < 5) {
-        const randomNum = Math.floor(Math.random() * 90) + 1; // 1-90
+        const randomNum = Math.floor(Math.random() * 90) + 1;
         numbers.add(randomNum);
     }
     return Array.from(numbers);
